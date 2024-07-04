@@ -1,17 +1,17 @@
 var objetivos = [
-  "Macroprocessos",
-  "Eficiência",
-  "Probablidiade e Impacto",
-  "Competente, transparente, funcional e participativa",
-  "Gestão de leitos e segurança do paciente",
+  "Residual",
+  "Controle",
+  "Causas; Impactos.",
+  "Critérios; Evidências.",
+  "Tratar; Mitigar.",
 ];
 
 var questoes = [
-  "Conjunto de processos estratégicos para o alcance dos objetivos da instituição?",
-  "Princípio constitucional inserido por meio da Emenda Constitucional nº 19, de 04/06/1998?",
-  "Duas variáveis que compõem a noção de risco?",
-  "O princípio da eficiência vai além da questão da economicidade, sendo relacionado a conceitos como de justiça social, por ter como objetivo promover uma gestão pública como algumas características. Encontre quatro características da gestão pública que o princípio da eficiência pode contribuir.",
-  "Dois desperdícios de diárias hospitalares com potencial de serem modificados, conforme Couto e Pedrosa (2020)?",
+  "Qual o nome do Risco calculado a partir da multiplicação do Risco Inerente pelo Risco de Controle (RI*RC*100)?",
+  "A identificação da Atividade de Controle e sua respectiva avaliação em termos de STATUS resulta na definição de qual tipo de Risco?",
+  "O Achado completo é a materialização da Sintaxe de Risco, tem quatro elementos constitutivos, entre eles a situação encontrada e a consequência. Quais são os dois elementos faltantes?",
+  "Há vários modelos para a Matriz de Achados que sintetiza o resultado da fase operativa, pode-se destacar seis elementos, quatro deles são: Causas; Situação encontrada; Efeitos; Recomendações. Quais são os outros dois?",
+  "A Fase de Monitoramento baseada na gestão de risco busca além de evidências da implantação das recomendações, objetiva constatar que a gestão tenha realizado ações nas causas e consequências da situação encontrada: você lembra os dois verbos utilizados para essa análise?",
 ];
 
 function printRows() {
@@ -117,11 +117,11 @@ $("#verificar").click(function () {
       let isCorrect = r == i;
       if (isCorrect) {
         $(this).addClass("right");
-        $('#cardObj' + r).addClass("right");
+        $("#cardObj" + r).addClass("right");
         acertos += 1;
       } else {
         $(this).addClass("wrong");
-        $('#cardObj' + r).addClass("wrong");
+        $("#cardObj" + r).addClass("wrong");
       }
     });
 

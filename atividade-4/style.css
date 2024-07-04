@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: "Jost", sans-serif;
+}
+
+.navbar,
+footer {
+  background-color: #f0f0f0 !important;
+  color: #5C6471;
+}
+.navbar h5,
+footer h5 {
+  font-weight: 600;
+}
+
+main {
+  background-color: #F9F9F9;
+}
+
+main .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+table {
+  background-color: #d1e7fd;
+}
+
+.table-container {
+  background-color: #d1e7fd;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+th {
+  border-bottom: 1px solid #0b486b;
+  font-size: 26px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+td {
+  padding: 24px;
+}
+
+td:has(.card-1),
+td:has(.card-2) {
+  width: 25%;
+}
+
+th:first-child,
+td:first-child {
+  border-right: 1px solid #0b486b;
+}
+
+td:has(.card-1) {
+  padding-left: 0 !important;
+}
+
+td:has(.card-2) {
+  padding-right: 12px !important;
+}
+
+td:has(.card-3) {
+  padding-left: 12px !important;
+  padding-right: 0 !important;
+}
+
+.card {
+  height: 150px;
+}
+
+.card-1,
+.card-2 {
+  border: none !important;
+}
+
+.card-1 {
+  font-size: 20px;
+  z-index: 99;
+}
+
+.dragged {
+  width: 100%;
+  position: absolute;
+}
+
+.card-2 {
+  background-color: #82bdff;
+  position: relative;
+}
+
+.card-3 {
+  border: 1px solid #0b486b;
+}
+.card-3 .card-body {
+  padding: 8px;
+}
+
+footer {
+  padding: 24px;
+}
+
+#verificar {
+  background-color: #167cba;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+#rightModal .modal-dialog,
+#wrongModal .modal-dialog {
+  max-width: 540px !important;
+}
+#rightModal .modal-header,
+#wrongModal .modal-header {
+  font-weight: 600;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#rightModal .modal-content,
+#wrongModal .modal-content {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#rightModal .modal-title,
+#wrongModal .modal-title {
+  font-size: 26px !important;
+}
+#rightModal .modal-body,
+#wrongModal .modal-body {
+  font-size: 18px;
+}
+#rightModal .btn-close,
+#wrongModal .btn-close {
+  filter: invert(100%);
+}
+#rightModal .modal-title,
+#rightModal .btn-primary,
+#wrongModal .modal-title,
+#wrongModal .btn-primary {
+  font-weight: 500 !important;
+}
+
+#rightModal .modal-header {
+  background-color: #0B877D;
+}
+#rightModal .btn-primary {
+  background-color: #0B877D !important;
+}
+
+#wrongModal .modal-header {
+  background-color: #CC2A4B;
+}
+#wrongModal .btn-primary {
+  background-color: #CC2A4B !important;
+}
+
+.card-obj .card-body, .card-3 .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-obj-filled {
+  background-color: #00508A;
+  color: white;
+}
+.card-obj-filled.right {
+  background-color: #0B877D;
+}
+.card-obj-filled.wrong {
+  background-color: #CC2A4B;
+}/*# sourceMappingURL=style.css.map */
